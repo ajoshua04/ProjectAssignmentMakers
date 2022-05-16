@@ -1,0 +1,24 @@
+{
+  "name": "art_engine",
+  "version": "1.0.5",
+  "description": "art_engine to create nfts metadata",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "layers/**/*",
+      "node_modules/**/*",
+      "src/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Eugene Botha (HashLips)",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "sha1": "^1.1.1"
+  }
+}
